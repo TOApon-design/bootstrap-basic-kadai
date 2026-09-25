@@ -9,65 +9,67 @@
     <title>Carousel Template · Bootstrap v5.0</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
     <!-- ************************************************ bootstrap.min.cssの読み込み -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- ************************************************ carousel.cssの読み込み -->
     <link href="carousel.css" rel="stylesheet">
     <!-- ************************************************ bootstrap.bundle.min.jsの読み込み -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer></script>
+    <script src="dist/js/bootstrap.bundle.min.js" defer></script>
   </head>
   <body>
     <main>
       <!-- ************************************************ カールセル開始 -->
       <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel"> -->
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="myCarousel" class="" data-bs-ride="">
         <!-- <div class="carousel-inner"> -->
-        <div class="carousel-inner">
+        <div class="">
           <!-- <div class="carousel-item active"> -->
-           <div class="carousel-item active">
+          <div class="">
             <img src="img/top_1.jpg" alt="サンプル画像1">
             <div class="container">
               <!-- <div class="carousel-caption"> -->
-              <div class="carousel-caption">
+              <div class="">
                 <h1>Example headline.</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
                   metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                <p><a class="" href="#" role="button">Sign up today</a></p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- ************************************************ カールセル終了 -->
-
-         <div class="container">
+      <div class="container">
 
      <style>
-        
-      .button-test {
-          /* パディング(余白)上下方向10px 左右方向30px */
-          padding: 10px 30px;
-          /* ボタンの幅 300px */
-          width: 300px;
-          /* 背景色 青 */
-          background-color: blue;
-          /* フォント色 白 */
-          color: white;
-          text-align: center;
-          font-weight: bold;
-          border-radius: 5px;
-          margin: 30px;
-          box-shadow: 0px 0px 20px rgba(o, o, o, 30px);
+       .button-test {
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgba(0, 20, 0, 40);
+        width: 200px;
          }
-       
      </style>
 
-     <!-- buttonテスト -->
-     <button class="btn btn-secondary btn-lg shadow">ここを押す</button>
-     <div  class="button-test">ここを押す</div>      
-     <a href="" class="btn btn-info btn-sm shadow">ここを押す</a>
+       <!-- buttonテスト -->
+       <button class="btn btn-primary btn-lg shadow">ここを押す</button>
+        <div class="button-test">ここを押す</div>
 
-   </div>
+       <a href="" class="btn btn-info btn-sm shadow">ここを押す</a>
+
+       <!-- ここから追加部分 -->
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <button type="button" class="btn btn-outline-warning btn-lg shadow-lg">Warning</button>
+        <button type="button" class="btn btn-outline-info btn-sw shadow-sm">Info</button>
+       <!-- ここまで -->
+    </div>
+
+
       <!-- <div class="container marketing"> -->
       <div class="">
         <!-- <div class="row"> -->
